@@ -1,0 +1,37 @@
+body {
+  background: #091540;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.btn-group {
+  position: relative;
+}
+.btn {
+  height: 60px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background: white;
+  color: black;
+  border-radius: 0.25rem;
+  transition: all 0.1s ease-in-out;
+  border: solid 2px black;
+}
+.btn:active {
+  transform: translate(-5px, 5px);
+}
+.btn-shadow {
+  z-index: -1;
+  height: 65px;
+  width: 105px;
+  top: 5px;
+  left: -5px;
+  position: absolute;
+  background: black;
+  border-radius: 0.25rem;
+}
